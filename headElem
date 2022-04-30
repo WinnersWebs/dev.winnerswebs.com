@@ -1,0 +1,30 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Winners Webs wins the web with marketing services like Nothing Fancy Websites, Really Cool Ads, Conversational Content and Social Media Coaching.">
+    <meta name="keywords" content="Winners Webs, Winners Webs LLC, Winners Webs, Really Cool Ads, Conversational Content, Social Media Coaching">
+    <meta name="author" content="Winners Webs LLC">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta http-equiv="content-language" content="en-us">
+    <title>Winners Webs</title>
+    <base href="https://winnerswebs.com/">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta property="og:title" content="Winners Webs">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://winnerswebs.com/og-image.png">
+    <meta property="og:image:alt" content="the Winners Webs homepage">
+    <meta property="og:url" content="https://winnerswebs.com/">
+    <meta property="og:description" content="Winners Webs wins the web with marketing services like Nothing Fancy Websites, Really Cool Ads, Conversational Content and Social Media Coaching.">
+    <meta property="og:site_name" content="Winners Webs LLC">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@WinnersWebs" />
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "organization",
+            "name": "Winners Webs",
+            "url": "https://winnerswebs.com",
+            "brand": "Winners Webs LLC",
+            "logo": "https://winnerswebs.com/winners-webs-logo.png"
+        }
+    </script>
+</head>

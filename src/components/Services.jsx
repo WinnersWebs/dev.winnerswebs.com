@@ -13,7 +13,7 @@ export const Services = () => {
           <p>Whether you need to practice or just need a motivational boost, we'll coach you through the important parts of social media</p>
         </div>
         <div className='bg-semidark-green text-white p-3 row-start-3 col-start-1 rounded-2xl shadow-xl'>
-          <h3 className='text-amber-400'>Really Cool Ads</h3>
+          <h3 className='text-amber-400'>Pretty Cool Ads</h3>
           <p>Ads aren't most people's favorite things, so we try to be cool about it</p>
         </div>
         <div className='bg-semidark-green text-white p-3 row-start-4 col-start-2 rounded-2xl shadow-xl'>

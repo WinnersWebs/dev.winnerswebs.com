@@ -4,6 +4,7 @@ import { Hero } from './components/Hero'
 import { Services } from './components/Services'
 import { Form } from './components/Form'
 import { Footer } from './components/Footer'
+import { Results } from './components/Results'
 
 function App() {
 
@@ -15,9 +16,12 @@ function App() {
           <Hero/>
         </div>
       </div>
-      <div className='bg-dark-green h-screen '>
+      <div className='bg-dark-green'>
         <div className='container mx-auto'>
           <Services/>
+        </div>
+        <div>
+          <Results/>
         </div>
         <div>
           <Form/>

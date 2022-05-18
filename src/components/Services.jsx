@@ -18,7 +18,7 @@ export const Services = () => {
         </div>
         <div className='bg-semidark-green text-white p-3 row-start-4 col-start-2 rounded-2xl shadow-xl'>
           <h3 className='text-amber-400'>Conversational Content</h3>
-          <p>A chance for you to share your story and your employees to share their successes </p>
+          <p>a chance for you to share your story and offerings, and a chance for your employees to share their successes</p>
         </div>
     </div>
   )

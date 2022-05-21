@@ -3,7 +3,7 @@ import {iconFacebook, iconInstagram, iconLinkedin, iconTwitter} from "./helpers/
 
 export const Footer = () => {
   return (
-    <div className='bg-zinc-900'>
+    <div className='bg-zinc-900 w-full'>
       <div className='flex justify-around  h-full container mx-auto py-24'>
         <div>
           <h6 className='text-white text-3xl mb-4'>

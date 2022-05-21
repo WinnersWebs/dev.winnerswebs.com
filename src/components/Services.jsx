@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Services = () => {
   return (
-    <div className='grid grid-cols-2 gap-5 pt-20'>
+    <div className='grid grid-cols-2 gap-5 pt-20 w-full'>
         <div className='bg-semidark-green text-white p-3 row-start-1 col-start-1 rounded-2xl shadow-xl'>
           <h3 className='text-amber-400'>Nothing Fancy Websites</h3>
           <img src=''></img>

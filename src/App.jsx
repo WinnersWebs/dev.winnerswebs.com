@@ -2,9 +2,9 @@ import './App.css'
 import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { Services } from './components/Services'
-import { Form } from './components/Form'
 import { Footer } from './components/Footer'
 import { Results } from './components/Results'
+import CallToActionBar from './components/helpers/CallToActionBar'
 
 function App() {
 
@@ -23,9 +23,7 @@ function App() {
         <div>
           <Results/>
         </div>
-        <div>
-          <Form/>
-        </div>
+        <CallToActionBar/>
         <Footer/>
       </div>
     </div>

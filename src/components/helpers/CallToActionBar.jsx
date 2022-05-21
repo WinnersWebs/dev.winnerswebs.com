@@ -6,10 +6,10 @@ const CallToActionBar = () => {
         <div className='container mx-auto py-14 grid grid-cols-3 '>
             <div className='text-gray'>
                 <span className='text-4xl'>Ready — Set — Win?</span>
-                <span className='text-2xl'>Let us know a few details about your business needs and we'll get started</span>
+                <span className='text-2xl'>Let's get started →</span>
             </div>
             <div className='col-start-3 flex items-center justify-center'>
-                <button className='bg-transparent px-5 py-3 text-xl font-bold rounded-md border-2 text-gray border-gray-700'>CONTACT US</button>
+                <button className='bg-transparent px-5 py-3 text-xl font-bold rounded-md border-2 text-gray border-gray-700'>Signup</button>
             </div>
         </div>
     </div>

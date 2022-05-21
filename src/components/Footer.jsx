@@ -9,7 +9,8 @@ export const Footer = () => {
           <h6 className='text-white text-3xl mb-4'>
             Services
           </h6>
-          <ol className='text-gray-500 text-xl'>
+          <ol className='text-gray-500 text-xl' id="footerServicesOl">
+            <label className='text-white text-3xl mb-4' for="footerServicesOl">Services</label>
             <li><a className="hover:text-gray-400" href="#">Nothing Fancy Websites</a></li>
             <li><a className="hover:text-gray-400" href="#">Social Media Coaching</a></li>
             <li><a className="hover:text-gray-400" href="#">Pretty Cool Ads</a></li>

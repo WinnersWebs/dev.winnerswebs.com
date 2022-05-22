@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'us-central1-docker.pkg.dev/$prod-305618/quickstart-docker-repo/quickstart-image:tag1', '.' ]
+  args: [ 'build', '-t', 'https://github.com/WinnersWebs/dev.winnerswebs.com', '.' ]
 images:
-- 'us-central1-docker.pkg.dev/$prod-305618/quickstart-docker-repo/quickstart-image:tag1'
+- 'https://github.com/WinnersWebs/dev.winnerswebs.com'

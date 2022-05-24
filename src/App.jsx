@@ -4,6 +4,7 @@ import { Hero } from './components/Hero'
 import { Services } from './components/Services'
 import { Footer } from './components/Footer'
 import { Results } from './components/Results'
+import { Form } from './components/Form'
 import CallToActionBar from './components/helpers/CallToActionBar'
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
         <div>
           <Results/>
         </div>
-        <CallToActionBar/>
+          <CallToActionBar/>
+          <Form/>
         <Footer/>
       </div>
     </div>

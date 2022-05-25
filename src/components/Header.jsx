@@ -8,7 +8,9 @@ export const Header = () => {
             <img className='max-h-20' src={logo} alt='Winners Webs logo'></img>
             <span className='text-5xl ml-7 font-semibold text-yellow-500 font-sans'>Winners Webs</span>
         </div>
-        <button className='bg-transparent px-5 py-3 text-xl font-bold rounded-md border-2 text-white'>Contact Us</button>
+        <a href='#contactForm'>
+          <button className='hover:bg-white hover:text-green-900 bg-transparent px-5 py-3 text-xl font-bold rounded-md border-2 text-white'>Contact Us</button>
+        </a>
     </nav>
   )
 }

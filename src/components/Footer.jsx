@@ -28,7 +28,9 @@ export const Footer = () => {
             <label className='text-white text-3xl mb-4' for="footerSocialsOl">Socials</label>
             <li><a className="hover:text-gray-400 flex items-center gap-1" href="https://www.facebook.com/winnerswebs/">Facebook {iconOpenIn}</a></li>
             <li><a className="hover:text-gray-400 flex items-center gap-1" href="https://www.instagram.com/winnerswebs/">Instagram {iconOpenIn}</a></li>
+              <li><a className="hover:text-gray-400 flex items-center gap-1" href="https://www.youtube.com/channel/UCGf0pfXIlkyZJzA9a9y41SA">YouTube {iconOpenIn}</a></li>
             <li><a className="hover:text-gray-400 flex items-center gap-1" href="https://www.twitter.com/winnerswebs/">Twitter {iconOpenIn}</a></li>
+              <li><a className="hover:text-gray-400 flex items-center gap-1" href="https://www.tiktok.com/@winnerswebs">TikTok {iconOpenIn}</a></li>
             <li><a className="hover:text-gray-400 flex items-center gap-1" href="https://www.linkedin.com/company/winnerswebs/">LinkedIn {iconOpenIn}</a></li>
           </ol>
         </div>

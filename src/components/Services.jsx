@@ -28,7 +28,7 @@ export const Services = () => {
           <div className='w-2/3 flex flex-col justify-center gap-2'>
             <h3 className='text-amber-400 text-4xl'>Pretty Cool Ads</h3>
             <span className='text-gray-400 text-2xl'>Ads aren't most people's favorite things, so we try to be cool <span class="whitespace-nowrap">about it.</span></span>
-            <p className='text-white text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis placerat fermentum. Nunc tempor, lorem a maximus sagittis, elit dui pellentesque eros, sed porttitor odio lorem dapibus lectus. Aenean pharetra pretium metus, et eleifend nisi condimentum at. In erat lectus, tincidunt sit amet tellus sit amet, volutpat egestas lacus. Morbi fermentum laoreet semper. Nulla gravida libero id dui vehicula lacinia.</p>
+            <p className='text-white text-xl'>Ads benefit you because they increase sales. Ads benefit your customers because they're shown content tailored to them in a way not possible through organic social media content. If you're a little confused about this, let's talk. If you know exactly what we mean, let's talk. 😎</p>
           </div>
           <div className='w-1/3'>
             <img className='rounded-xl' src={defaultImg}></img>

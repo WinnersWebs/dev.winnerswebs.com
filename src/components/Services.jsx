@@ -8,7 +8,7 @@ export const Services = () => {
           <div className='w-2/3 flex flex-col justify-center gap-2'>
             <h3 className='text-amber-400 text-4xl'>Nothing Fancy Websites</h3>
             <span className='text-gray-400 text-2xl'>Websites these days are made to look too fancy. They don't need to be fancy, what they need <span class="whitespace-nowrap">is you.</span></span>
-            <p className='text-white text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis placerat fermentum. Nunc tempor, lorem a maximus sagittis, elit dui pellentesque eros, sed porttitor odio lorem dapibus lectus. Aenean pharetra pretium metus, et eleifend nisi condimentum at. In erat lectus, tincidunt sit amet tellus sit amet, volutpat egestas lacus. Morbi fermentum laoreet semper. Nulla gravida libero id dui vehicula lacinia.</p>
+            <p className='text-white text-xl'>Unlike on social media, you have the full attention of your customers when they're on your website. Why waste bandwidth on stock photos and flashy animations? Nothing Fancy Websites are everything simple, and nothing fancy. Search Engine Optimization ("SEO") for Google, Bing and other search engines is built-in. If what you're selling is simply worth buying, then a Nothing Fancy Website is for you.</p>
           </div>
           <div className='w-1/3'>
             <img className='rounded-xl' src={defaultImg}></img>

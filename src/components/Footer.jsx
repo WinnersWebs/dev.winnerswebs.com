@@ -18,7 +18,7 @@ export const Footer = () => {
           <ol className='text-gray-500 text-xl flex flex-col gap-1' id="footerContactOl">
             <label className='text-white text-3xl mb-4' for="footerContactOl">Contact</label>
             <div className="flex flex-col gap-5">
-              <li><a className="hover:text-gray-400 flex items-center gap-1" href="mailto:hey@winnerswebs.com">Email: chris@winnerswebs.com {iconOpenIn}</a></li>
+              <li><a className="hover:text-gray-400 flex items-center gap-1" href="mailto:hey@winnerswebs.com">Email: hey@winnerswebs.com {iconOpenIn}</a></li>
               <li><a className="hover:text-gray-400 flex items-center gap-1" href="tel:3077575617">Tel: 3077575617 {iconOpenIn}</a></li>
             </div>
           </ol>

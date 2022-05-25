@@ -20,10 +20,10 @@ export const Footer = () => {
             <li><a className="hover:text-gray-400" href="mailto:hey@winnerswebs.com">Email: chris@winnerswebs.com</a></li>
             <li><a className="hover:text-gray-400" href="tel:3077575617">Tel: 3077575617</a></li>
             <li className="flex flex-col">
-              <a className="hover:text-gray-400" href="https://www.facebook.com/winnerswebs/">https://www.facebook.com/winnerswebs/</a>
-              <a className="hover:text-gray-400" href="https://www.instagram.com/winnerswebs/">https://www.instagram.com/winnerswebs/</a>
-              <a className="hover:text-gray-400" href="https://www.twitter.com/winnerswebs/">https://www.twitter.com/winnerswebs/</a>
-              <a className="hover:text-gray-400" href="https://www.linkedin.com/company/winnerswebs/">https://www.linkedin.com/company/winnerswebs/</a>
+              <a className="hover:text-gray-400" href="https://www.facebook.com/winnerswebs/">Facebook</a>
+              <a className="hover:text-gray-400" href="https://www.instagram.com/winnerswebs/">Instagram</a>
+              <a className="hover:text-gray-400" href="https://www.twitter.com/winnerswebs/">Twitter</a>
+              <a className="hover:text-gray-400" href="https://www.linkedin.com/company/winnerswebs/">LinkedIn</a>
             </li>
           </ol>
         </div>

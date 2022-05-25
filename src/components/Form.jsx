@@ -10,7 +10,7 @@ export const Form = () => {
   const inputStyle = "border-solid border-gray-300 border py-2 px-4 w-full rounded text-gray-700"
   
   return (
-    <div className='my-20 mx-4 flex items-center justify-center'>
+    <div id='contactForm' className='my-20 mx-4 flex items-center justify-center'>
       <div className='flex items-center justify-center gap-28 bg-white p-12 rounded-xl text'>
         <div className='w-1/2'>
           <p className='flex justify-center text-4xl mb-6 text-center gap-3 text font-bold'><span className='text-amber-500'>Your business.</span> Our passion.</p>

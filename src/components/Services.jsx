@@ -35,7 +35,7 @@ export const Services = () => {
           <img src={defaultImg} alt='Conversational Content logo' className='h-24 w-24'></img>
             <h3 className='text-amber-400 text-4xl'>Really Cool Coaching & Consulting</h3>
             <span className='text-gray-400 text-2xl'>Whether you need to plan or need a motivational boost, we'll help you through the important parts of <span class="whitespace-nowrap">social media.</span></span>
-            <p className='text-white text-xl'>Sometimes you need to know what to do, and other times you just need a boost to get it done. Really Cool Coaching and Consulting by Winners Webs is exactly that — whether you need to plan or you need a motivational boost to put those plans into action — we'll help.</p>
+            <p className='text-white text-xl'>Ever feel unmotivated to make posts and reply to comments on social media? Or like you're not sure how to plan your approach on social? With Really Cool Coaching and Consulting by Winners Webs we'll work together to ensure you're feeling prepared and effective. Your social media audience will appreciate your efforts, and your sales will reflect it.</p>
         </div>
         <div className='px-5 lg:px-0 md:w-1/2 lg:w-1/3'>
           <img className='rounded-xl' src={defaultImg}></img>
@@ -45,7 +45,7 @@ export const Services = () => {
         <div className='w-2/3 flex flex-col justify-center gap-2 items-center'>
           <img src={ccLogo} alt='Conversational Content logo' className='h-24 w-24'></img>
           <h3 className='text-amber-400 text-4xl text-center'>Conversational Content</h3>
-          <span className='text-gray-400 text-2xl'>A chance for you to share your story and offerings, and a chance for your employees to share their successes.<span className="whitespace-nowrap">is you.</span></span>
+          <span className='text-gray-400 text-2xl'A chance for you to share your story and offerings, and a chance for your employees to share their successes.<span className="whitespace-nowrap">is you.</span></span>
           <p className='text-white text-xl'>People do business with people they know, like and trust. You've probably heard that one before. There's no better way for your audience to know, like and trust you than to let them hear you and your employees talk. There's no better way for top potential employees to understand why they should work for you — and that's by hearing your employees speak about their successes. Winners Webs will help. First we'll get to know one another. Then we'll talk with you about your story and offerings and with your employees about their successes. Last we'll select the best of it and show people.</p>
         </div>
         <div className='px-5 lg:px-0 md:w-1/2 lg:w-1/3'>

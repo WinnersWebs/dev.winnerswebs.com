@@ -1,3 +1,4 @@
 User-agent: *
-Allow: /$
+#Allow: /$
+Disallow: /$
 Sitemap: https://winnerswebs.com/sitemap.xml

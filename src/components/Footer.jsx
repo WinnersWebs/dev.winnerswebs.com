@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <div className='bg-zinc-900 w-full flex justify-center'>
       <div /* className='flex justify-around  h-full container mx-auto py-24' */
-      className="flex flex-col items-center justify-center text-center container py-10 gap-10 md:flex-row md:justify-evenly">
+      className="flex flex-col  justify-center text-center container py-10 gap-10 md:flex-row md:justify-evenly">
         <div>
           <ol className='text-gray-500 text-xl flex flex-col gap-1' id="footerServicesOl">
             <label className='text-white text-3xl mb-4' htmlFor="footerServicesOl">Services</label>

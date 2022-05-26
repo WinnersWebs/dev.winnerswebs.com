@@ -6,7 +6,7 @@ import { iconOpenIn } from './helpers/icons'
 
 export const Services = () => {
   return (
-    <div className='pt-20 w-full flex flex-col gap-10 text-center'>
+    <div className='py-20 w-full flex flex-col gap-10 text-center'>
       <div className='flex flex-col-reverse items-center gap-8 bg-semidark-green rounded-2xl py-10 mx-5 text-justify lg:flex-row lg:p-10 lg:text-center'>
         <div className='w-2/3 flex flex-col justify-center gap-2 items-center'>
           <img src={nfwLogo} alt='Conversational Content logo' className='h-24 w-24'></img>

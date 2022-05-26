@@ -3,7 +3,7 @@ import ps from '../img/ps1.jpg'
 
 export const Hero = () => {
   return (
-    <div className='mt-10 w-full px-5'>
+    <div className='mt-10 w-full px-5 md:mt-28'>
         <div className='flex flex-col items-center md:flex-row md:gap-8 md:justify-evenly' >
             <img className='rounded-xl w-64 mb-10 md:w-auto' src={ps}></img>
             <div className='text-justify max-w-3xl flex flex-col gap-2 items-center md:w-1/2 lg:items-start'>

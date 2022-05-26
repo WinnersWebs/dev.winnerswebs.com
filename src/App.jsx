@@ -11,8 +11,8 @@ function App() {
 
   return (
     <div >
-      <div className=" bg-[url('./img/svg-bg.svg')] bg-slate-800 bg-cover h-screen">
-        <div className='container mx-auto '>
+      <div className=" bg-[url('./img/svg-bg.svg')] bg-slate-800 bg-cover">
+        <div className='container mx-auto flex flex-col items-center'>
           <Header/>
           <Hero/>
         </div>

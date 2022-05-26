@@ -1,4 +1,4 @@
 User-agent: *
-#Allow: /$
+#Allow: /$ UNCOMMENT AND REMOVE LINE 3 UPON DEPLOYMENT
 Disallow: /$
 Sitemap: https://winnerswebs.com/sitemap.xml

@@ -10,16 +10,16 @@ export const Form = () => {
   const inputStyle = "border-solid border-gray-300 border py-2 px-4 w-full rounded text-gray-700"
   
   return (
-    <div id='contactForm' className='my-20 mx-4 flex items-center justify-center'>
-      <div className='flex items-center justify-center gap-28 bg-white p-12 rounded-xl text'>
-        <div className='w-1/2'>
-          <p className='flex justify-center text-4xl mb-6 text-center gap-3 text font-bold'><span className='text-amber-500'>Your business.</span> Our passion.</p>
+    <div id='contactForm'  className='my-20 mx-4 flex items-center justify-center' >
+      <div className='flex justify-center items-center flex-col bg-white rounded-xl py-10 my-10 mx-5 gap-10 md:flex-row px-10'>
+        <div>
+          <p className='flex justify-center text-3xl mb-6 text-center gap-3 text font-bold'><span className='text-amber-500'>Your business.</span> Our passion.</p>
           <form className="flex flex-col gap-4 w-full" onSubmit={handleSubmit(onSubmit)}>
-            <div className='flex gap-4'>
+            <div className='flex flex-col gap-4'>
               <input className={inputStyle} type="text" placeholder="First name" {...register("First name", {required: true, maxLength: 80})} />
               <input className={inputStyle} type="text" placeholder="Your business" {...register("Your business", {required: true, maxLength: 100})} />
             </div>
-            <div className='flex gap-4'>
+            <div className='flex flex-col gap-4'>
               <input className={inputStyle} type="text" placeholder="Email" {...register("Email", {required: true, pattern: /^\S+@\S+$/i})} />
               <input className={inputStyle} type="tel" placeholder="Phone" {...register("Phone", {required: true, maxLength: 12})} />
             </div>
@@ -36,7 +36,7 @@ export const Form = () => {
         </form>
         </div>
         <div>
-          <img src={defaultImg} alt="" className='max-w-md'></img>
+          <img src={defaultImg} alt="" className='max-w-md w-60 md:w-auto'></img>
         </div>
       </div>
     </div>

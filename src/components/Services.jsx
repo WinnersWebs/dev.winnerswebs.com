@@ -45,7 +45,7 @@ export const Services = () => {
         <div className='w-2/3 flex flex-col justify-center gap-2 items-center'>
           <img src={ccLogo} alt='Conversational Content logo' className='h-24 w-24'></img>
           <h3 className='text-amber-400 text-4xl text-center'>Conversational Content</h3>
-          <span className='text-gray-400 text-2xl'A chance for you to share your story and offerings, and a chance for your employees to share their successes.<span className="whitespace-nowrap">is you.</span></span>
+          <span className='text-gray-400 text-2xl'>A chance for you to share your story and offerings, and a chance for your employees to share their successes.<span className="whitespace-nowrap">is you.</span></span>
           <p className='text-white text-xl'>People do business with people they know, like and trust. You've probably heard that one before. There's no better way for your audience to know, like and trust you than to let them hear you and your employees talk. There's no better way for top potential employees to understand why they should work for you — and that's by hearing your employees speak about their successes. Winners Webs will help. First we'll get to know one another. Then we'll talk with you about your story and offerings and with your employees about their successes. Last we'll select the best of it and show people.</p>
         </div>
         <div className='px-5 lg:px-0 md:w-1/2 lg:w-1/3'>

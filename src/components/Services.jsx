@@ -29,7 +29,7 @@ export const Services = () => {
           <p className='text-white text-xl'>>Ads benefit you because they increase sales. Ads benefit your customers because they're shown content tailored to them in a way not possible through organic social media content. If you're a little confused about this, let's talk. If you know exactly what we mean, let's talk. 😎</p>
         </div>
         <div className='px-5 lg:px-0 md:w-1/2 lg:w-1/3'>
-          <img className='rounded-xl' src={ccLogo} alt="Conversational Content Logo"></img>
+          <img className='rounded-xl' src={pcaLogo} alt="Conversational Content Logo"></img>
         </div>
       </div>
       <div className='flex flex-col-reverse items-center gap-8 bg-semidark-green rounded-2xl py-10 mx-5 text-justify lg:flex-row lg:p-10 lg:text-center'>

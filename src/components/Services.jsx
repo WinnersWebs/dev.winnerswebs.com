@@ -1,7 +1,7 @@
 import React from 'react'
 import defaultImg from '../img/default.png'
 import ccLogo from '../img/CC-logo.png'
-import nfwLogo from '../img/nfw-logo.png'
+import nfwLogo from '../img/Nothing_Fancy_Websites-logo.png'
 import { iconOpenIn } from './helpers/icons'
 
 export const Services = () => {

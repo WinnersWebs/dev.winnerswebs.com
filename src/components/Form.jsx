@@ -32,7 +32,7 @@ export const Form = () => {
             <textarea rows='5' className="border-solid border-gray-300 border py-2 px-4 w-full rounded text-gray-700" placeholder='Message' {...register("Message", {required: true})} />
             
 
-            <input className='cursor-pointer mt-4 w-full bg-amber-400 hover:very-light-yellow text-green-900 border shadow py-3 px-6 font-semibold text-md rounded' type="submit" />
+            <input className='cursor-pointer mt-4 w-full bg-amber-400 hover:amber-300 text-green-900 border shadow py-3 px-6 font-semibold text-md rounded' type="submit" />
         </form>
         </div>
         <div>

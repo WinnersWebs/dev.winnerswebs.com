@@ -47,7 +47,7 @@ export const Services = () => {
         <div className='w-2/3 flex flex-col justify-center gap-2 items-center'>
           {/*<img src={defaultImg} alt='Conversational Content logo' className='h-24 w-24'></img>*/}
             <h3 className='text-amber-400 text-4xl'>Really Cool Coaching & Consulting</h3>
-            <span className='text-gray-400 text-2xl'><span className="italic">we work to drive sales through social media, it's <span className="whitespace-nowrap">really cool</span> 😎</span></span>
+            <span className='text-gray-400 text-2xl'><span className="italic">we work to drive sales through social media, it's <span className="whitespace-nowrap">really cool</span></span> 😎</span>
             <p className='text-white text-xl'>Ever feel unmotivated to make posts and reply to comments on social media? Or like you're not sure how to plan your approach on social? With Really Cool Coaching and Consulting by Winners Webs we'll work together to ensure you're feeling prepared and effective. Your social media audience will appreciate your efforts, and your sales will reflect it.</p>
         </div>
         <div className='px-5 lg:px-0 md:w-1/2 lg:w-1/3'>

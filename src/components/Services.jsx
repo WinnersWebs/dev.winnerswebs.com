@@ -14,7 +14,7 @@ export const Services = () => {
           {/*<img src={nfwLogo} alt='Conversational Content logo' className='h-24 w-24'></img>*/}
           <h3 className='text-amber-400 text-4xl text-center'>Nothing Fancy Websites</h3>
           <span className='text-gray-400 text-2xl italic'>your website doesn't need to be fancy, what your website needs <span className="whitespace-nowrap">is you</span></span>
-          <p className='text-white text-xl'>Unlike on social media, you have the full attention of your customers when they're on your website. Why waste bandwidth on stock photos and flashy animations? Nothing Fancy Websites are everything simple, and nothing fancy. Search Engine Optimization ("SEO") for Google, Bing and other search engines is built-in. If what you're selling is simply worth buying, then a Nothing Fancy Website is for you.</p>
+          <p className='text-white text-xl'>Unlike on social media, you have the full attention of your customers when they're on your website. Why waste bandwidth on stock photos and flashy animations? Nothing Fancy Websites are everything simple, and nothing fancy. <span className="italic">Search Engine Optimization ("SEO") for Google, Bing and other search engines is built-in.</span> If what you're selling is simply worth buying, then a Nothing Fancy Website is for you.</p>
           <a href='https://nothingfancywebsites.com/' target="_blank" rel="noopener noreferrer" className='text-lg text-green-600 flex hover:text-green-500 items-center gap-1 lg:text-2xl'>nothingfancywebsites.com {iconOpenIn}</a>
         </div>
         <div className='px-5 lg:px-0 md:w-1/2 lg:w-1/3'>

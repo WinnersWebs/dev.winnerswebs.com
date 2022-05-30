@@ -36,7 +36,7 @@ export const Services = () => {
         <div className='w-2/3 flex flex-col justify-center gap-2 items-center'>
           {/*<img src={ccLogo} alt='Conversational Content logo' className='h-24 w-24'></img>*/}
           <h3 className='text-amber-400 text-4xl text-center'>Conversational Content</h3>
-          <span className='text-gray-400 text-2xl italic'>a chance for your story and offerings, and your employees to share <span className="whitespace-nowrap">their successes</span></span>
+          <span className='text-gray-400 text-2xl italic'>share story and offerings, and your employees can share <span className="whitespace-nowrap">their successes</span></span>
           <p className='text-white text-xl'>People do business with people they know, like and trust. You've probably heard that one before. There's no better way for your audience to know, like and trust you than to let them hear you and your employees talk. There's no better way for top potential employees to understand why they should work for you — and that's by hearing your employees speak about their successes. We help! First we'll get to know one another. Then we'll talk with you about your story and offerings and with your employees about their successes. Last we'll select the best of it and show people.</p>
         </div>
         <div className='px-5 lg:px-0 md:w-1/2 lg:w-1/3'>

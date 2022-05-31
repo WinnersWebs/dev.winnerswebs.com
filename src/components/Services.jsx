@@ -33,7 +33,7 @@ export const Services = () => {
       <div className='flex flex-col-reverse items-center gap-8 bg-semidark-green rounded-2xl py-10 mx-5 text-justify lg:flex-row lg:p-10 lg:text-center'>
         <div className='w-2/3 flex flex-col justify-center gap-2 items-center'>
           <h3 className='text-amber-400 text-4xl text-center'>Conversational Content</h3>
-          <span className='text-gray-400 text-2xl italic'>share your story and offerings, and your employees'll share <span className="whitespace-nowrap">their successes</span></span>
+          <span className='text-gray-400 text-2xl italic'>a chance to share your story and offerings, and for your employees to share <span className="whitespace-nowrap">their successes</span></span>
           <p className='text-white text-xl'>“People do business with people they know, like and trust” — you've probably heard that one before. There's no better way for your audience to know, like and trust you (of course if they should) than to let them hear you and your employees talk. There's no better way for top potential employees to understand why they should work for you — and that's by hearing your employees speak about their successes. <span className="whitespace-nowrap">We help!</p>
         </div>
         <div className='px-5 lg:px-0 md:w-1/2 lg:w-1/3'>

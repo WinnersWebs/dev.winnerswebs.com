@@ -44,7 +44,7 @@ export const Services = () => {
         <div className='w-2/3 flex flex-col justify-center gap-2 items-center'>
             <h3 className='text-amber-400 text-4xl'>Really Cool Coaching & Consulting</h3>
             <span className='text-gray-400 text-2xl'><span className="italic">if we worked together to make social media better, would you say that it'd be <span className="whitespace-nowrap">really cool?</span></span> 😎</span>
-            <p className='text-white text-xl'>Ever feel unmotivated to make posts and reply to comments on social media? Or like you're not sure where to even begin? Really Cool Coaching and Consulting by Winners Webs helps with both discipline and ideas. Your social media audience will appreciate your efforts, and your sales will reflect that.</p>
+            <p className='text-white text-xl'>Ever feel unmotivated to make posts and reply to comments on social media? Or like you're not sure where to even begin? Really Cool Coaching and Consulting by Winners Webs helps with both discipline, and ideas. Your social media audience will appreciate your efforts, and your sales will reflect that.</p>
         </div>
         <div className='px-5 lg:px-0 md:w-1/2 lg:w-1/3'>
           <img className='rounded-xl' src={rcccLogo} alt="Really Cool Coaching and Consulting Logo"></img>

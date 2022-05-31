@@ -31,6 +31,7 @@ export const Footer = () => {
             <li><a className="hover:text-gray-400 flex items-center gap-1" href="https://www.instagram.com/winnerswebs/" target="_blank" rel="noopener noreferrer">Instagram {iconOpenIn}</a></li>
             <li><a className="hover:text-gray-400 flex items-center gap-1" href="https://www.youtube.com/channel/UCGf0pfXIlkyZJzA9a9y41SA">YouTube {iconOpenIn}</a></li>
             <li><a className="hover:text-gray-400 flex items-center gap-1" href="https://www.twitter.com/winnerswebs/" target="_blank" rel="noopener noreferrer">Twitter {iconOpenIn}</a></li>
+            <li><a className="hover:text-gray-400 flex items-center gap-1" href="https://www.reddit.com/user/WinnersWebs/" target="_blank" rel="noopener noreferrer">Reddit {iconOpenIn}</a></li>
             <li><a className="hover:text-gray-400 flex items-center gap-1" href="https://www.tiktok.com/@winnerswebs">TikTok {iconOpenIn}</a></li>
             <li><a className="hover:text-gray-400 flex items-center gap-1" href="https://www.linkedin.com/company/winnerswebs/" target="_blank" rel="noopener noreferrer">LinkedIn {iconOpenIn}</a></li>
           </ol>

@@ -24,7 +24,7 @@ export const Services = () => {
         <div className='w-2/3 flex flex-col justify-center gap-2 items-center'>
           <h3 className='text-amber-400 text-4xl text-center'>Pretty Cool Ads</h3>
           <span className='text-gray-400 text-2xl italic'>ads aren't most people's favorite things so we try to be cool <span className="whitespace-nowrap">about it</span></span>
-          <p className='text-white text-xl'>Ads benefit you because they increase sales. Ads benefit your customers because things are tailored in a way not possible through the organic delivery methods. Ads can be used to benefit all, and that's pretty cool huh? If you're a little confused about this, let's talk. If you know what we mean, let's talk. 😎</p>
+          <p className='text-white text-xl'>Ads benefit you because they increase sales. Ads benefit your customers because things are tailored in a way not possible through the organic delivery methods. Ads can be used to benefit all, and that's pretty cool, huh? If you're a little confused about this, let's talk. If you know what we mean, let's talk. 😎</p>
         </div>
         <div className='px-5 lg:px-0 md:w-1/2 lg:w-1/3'>
           <img className='rounded-xl' src={pcaLogo} alt="Conversational Content Logo"></img>

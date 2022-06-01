@@ -23,7 +23,7 @@ export const Hero = () => {
             <span className="whitespace-nowrap">the web.</span>
           </p>
           <a href="#contactForm">
-            <button className="hover:text-amber-300 bg-amber-400 px-8 py-4 text-xl font-bold rounded-md text-slate-700 mt-5">
+            <button className="hover:bg-amber-300 bg-amber-400 px-8 py-4 text-xl font-bold rounded-md text-slate-700 mt-5">
               Contact Us
             </button>
           </a>

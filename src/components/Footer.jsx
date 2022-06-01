@@ -10,14 +10,14 @@ import {
 export const Footer = () => {
   return (
     <div className="bg-zinc-900 w-full flex justify-center">
-      <div className="flex flex-col  justify-center text-center container py-10 gap-10 md:flex-row md:justify-evenly">
+      <div className="flex flex-col text-center md:text-left justify-center container py-10 gap-10 md:flex-row md:justify-evenly">
         <div>
           <ol
             className="text-gray-500 text-xl flex flex-col gap-1"
             id="footerServicesOl"
           >
             <label
-              className="text-white text-3xl mb-4"
+              className="text-white text-3xl mb-4 text-center"
               htmlFor="footerServicesOl"
             >
               Services
@@ -50,15 +50,15 @@ export const Footer = () => {
             id="footerContactOl"
           >
             <label
-              className="text-white text-3xl mb-4"
+              className="text-white text-3xl mb-4 text-center"
               htmlFor="footerContactOl"
             >
               Contact
             </label>
-            <div className="flex flex-col gap-5 items-center">
+            <div className="flex flex-col gap-1 md:gap-5 items-center">
               <li>
                 <a
-                  className="hover:text-gray-400 flex items-center gap-1"
+                  className="hover:text-gray-400 text-2xl flex items-center gap-1"
                   href="mailto:hey@winnerswebs.com"
                 >
                   Email: hey@winnerswebs.com {iconOpenIn}
@@ -66,7 +66,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  className="hover:text-gray-400 flex items-center gap-1"
+                  className="hover:text-gray-400 text-2xl flex items-center gap-1"
                   href="tel:3077575617"
                 >
                   Tel: 3077575617 {iconOpenIn}
@@ -77,81 +77,83 @@ export const Footer = () => {
         </div>
         <div>
           <ol
-            className="text-gray-500 text-xl flex flex-col gap-1 items-center"
+            className="text-gray-500 text-xl flex flex-col gap-1"
             id="footerServicesOl"
           >
             <label
-              className="text-white text-3xl mb-4"
+              className="text-white text-3xl mb-4 text-center"
               htmlFor="footerSocialsOl"
             >
               Socials
             </label>
-            <li>
-              <a
-                className="hover:text-gray-400 flex items-center gap-1"
-                href="https://www.facebook.com/winnerswebs/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook {iconOpenIn}
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-gray-400 flex items-center gap-1"
-                href="https://www.instagram.com/winnerswebs/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Instagram {iconOpenIn}
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-gray-400 flex items-center gap-1"
-                href="https://www.youtube.com/channel/UCGf0pfXIlkyZJzA9a9y41SA"
-              >
-                YouTube {iconOpenIn}
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-gray-400 flex items-center gap-1"
-                href="https://www.twitter.com/winnerswebs/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter {iconOpenIn}
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-gray-400 flex items-center gap-1"
-                href="https://www.reddit.com/user/WinnersWebs/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Reddit {iconOpenIn}
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-gray-400 flex items-center gap-1"
-                href="https://www.tiktok.com/@winnerswebs"
-              >
-                TikTok {iconOpenIn}
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-gray-400 flex items-center gap-1"
-                href="https://www.linkedin.com/company/winnerswebs/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn {iconOpenIn}
-              </a>
-            </li>
+            <div className="flex flex-col items-center md:items-end gap-1">
+              <li>
+                <a
+                  className="hover:text-gray-400 flex items-center gap-1"
+                  href="https://www.facebook.com/winnerswebs/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Facebook {iconOpenIn}
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-gray-400 flex items-center gap-1"
+                  href="https://www.instagram.com/winnerswebs/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Instagram {iconOpenIn}
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-gray-400 flex items-center gap-1"
+                  href="https://www.youtube.com/channel/UCGf0pfXIlkyZJzA9a9y41SA"
+                >
+                  YouTube {iconOpenIn}
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-gray-400 flex items-center gap-1"
+                  href="https://www.twitter.com/winnerswebs/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Twitter {iconOpenIn}
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-gray-400 flex items-center gap-1"
+                  href="https://www.reddit.com/user/WinnersWebs/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Reddit {iconOpenIn}
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-gray-400 flex items-center gap-1"
+                  href="https://www.tiktok.com/@winnerswebs"
+                >
+                  TikTok {iconOpenIn}
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-gray-400 flex items-center gap-1"
+                  href="https://www.linkedin.com/company/winnerswebs/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn {iconOpenIn}
+                </a>
+              </li>
+            </div>
           </ol>
         </div>
       </div>

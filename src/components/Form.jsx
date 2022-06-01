@@ -85,7 +85,7 @@ export const Form = () => {
             />
 
             <input
-              className="cursor-pointer mt-4 w-full bg-amber-400 hover:text-amber-300 text-green-900 border shadow py-3 px-6 font-semibold text-md rounded"
+              className="cursor-pointer mt-4 w-full bg-amber-400 hover:bg-amber-300 text-green-900 border shadow py-3 px-6 font-semibold text-md rounded"
               type="submit"
             />
           </form>

@@ -8,19 +8,18 @@ export const Form = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+    console.log(data);
+  };
   console.log(errors);
 
   const inputStyle =
     "border-solid border-gray-300 border py-2 px-4 w-full rounded text-gray-700";
 
   return (
-    <div
-      id="contactForm"
-      className="my-20 mx-4 flex items-center justify-center"
-    >
+    <div className="my-20 mx-4 flex items-center justify-center">
       <div className="flex justify-center items-center flex-col bg-white rounded-xl py-10 my-10 mx-5 gap-10 md:flex-row px-10">
-        <div>
+        <div id="contactForm">
           <p className="flex justify-center text-3xl mb-6 text-center gap-3 text font-bold">
             <span className="text-amber-500">Your business.</span> Our passion.
           </p>
@@ -33,13 +32,13 @@ export const Form = () => {
                 className={inputStyle}
                 type="text"
                 placeholder="First name"
-                {...register("First name", { required: true, maxLength: 80 })}
+                {...register("FirstName", { required: true })}
               />
               <input
                 className={inputStyle}
                 type="text"
                 placeholder="Your business"
-                {...register("Your business", {
+                {...register("YourBusiness", {
                   required: true,
                   maxLength: 100,
                 })}
@@ -51,15 +50,25 @@ export const Form = () => {
                 type="text"
                 placeholder="Email"
                 {...register("Email", {
-                  required: true,
-                  pattern: /^\S+@\S+$/i,
+                  required: {
+                    value: true,
+                  },
+                  pattern: {
+                    value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
+                    message: "Please provide a valid email",
+                  },
                 })}
               />
+              {errors.Email?.type === "pattern" && (
+                <span className="text-red-600 -mt-3">
+                  {errors.Email.message}
+                </span>
+              )}
               <input
                 className={inputStyle}
                 type="tel"
                 placeholder="Phone"
-                {...register("Phone", { required: true, maxLength: 12 })}
+                {...register("Phone", { required: true })}
               />
             </div>
             <select
@@ -83,11 +92,17 @@ export const Form = () => {
               placeholder="Message"
               {...register("Message", { required: true })}
             />
-
+            {console.log(Object.keys(errors).length)}
+            {console.log(errors)}
             <input
               className="cursor-pointer mt-4 w-full bg-amber-400 hover:bg-amber-300 text-green-900 border shadow py-3 px-6 font-semibold text-md rounded"
               type="submit"
             />
+            {Object.keys(errors).length > 0 && (
+              <span className="text-red-600 text-center border-2 border-red-300 -mt-2">
+                Please fill all the fields correctly
+              </span>
+            )}
           </form>
         </div>
         <div>

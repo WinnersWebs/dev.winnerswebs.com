@@ -22,7 +22,7 @@ export const ToTopBtn = () => {
           className="scrollToTop h-20 w-20 fixed bottom-10 right-10 bg-dark-green cursor-pointer rounded-full flex justify-center items-center text-7xl"
           onClick={scrollToTop}
         >
-          <i className="text-green-700 hover:text-amber-400">{iconUp}</i>
+          <i className="hover:text-green-400 text-amber-400">{iconUp}</i>
         </div>
       )}
     </>

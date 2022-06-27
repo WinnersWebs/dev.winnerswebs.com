@@ -6,11 +6,11 @@ export const Hero = () => {
     <div className="mt-10 w-full px-5 md:mt-28">
       <div className="flex flex-col items-center md:flex-row md:gap-8 md:justify-evenly">
         <img
-          className="rounded-xl w-64 mb-10 md:w-auto"
+          className="rounded-xl w-64 mb-10 w30"
           alt="Winners Webs' Founder, Managing Member & Chief Executive Officer"
           src={ps}
         ></img>
-        <div className="text-justify max-w-3xl flex flex-col gap-2 items-center md:w-1/2 lg:items-start">
+        <div className="text-justify max-w-3xl flex flex-col gap-2 items-center md:w-1/2 lg:items-start w60">
           <h2 className="overflow-y-hidden text-white text-4xl text-center md:text-5xl md:text-left lg:text-6xl lg:mb-8">
             Helping you <span className="text-amber-400">win</span> on the{" "}
             <span className="text-amber-400">web</span>.
